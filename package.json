@@ -10,7 +10,7 @@
   "license": "MIT",
   "main": "./index.js",
   "bin": {
-    "sdl-type-generator": "./index.js"
+    "sdl-type-generator": "./bin/sdl-type-generator"
   },
   "dependencies": {
     "xml2js": "^0.4.19"

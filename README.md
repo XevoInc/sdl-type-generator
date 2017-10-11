@@ -8,4 +8,5 @@ TypeScript d.ts file generator from SDL's [HMI_API.xml](https://raw.githubuserco
 
 ## Usage
 
-    curl https://raw.githubusercontent.com/smartdevicelink/sdl_core/master/src/components/interfaces/HMI_API.xml | sdl-type-generator > type.ts
+    HMI_API="https://raw.githubusercontent.com/smartdevicelink/sdl_core/master/src/components/interfaces/HMI_API.xml"
+    curl $HMI_API | sdl-type-generator > type.ts
