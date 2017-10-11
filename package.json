@@ -1,0 +1,23 @@
+{
+  "name": "sdl-type-generator",
+  "version": "0.1.0",
+  "description": "TypeScript d.ts file generator from SDL's HMI_API.xml",
+  "scripts": {
+    "prebuild": "tslint --project ./",
+    "build": "tsc -p ."
+  },
+  "author": "Xevo Inc.",
+  "license": "MIT",
+  "main": "./index.js",
+  "bin": {
+    "sdl-type-generator": "./index.js"
+  },
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "@types/xml2js": "^0.4.0",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3"
+  }
+}
